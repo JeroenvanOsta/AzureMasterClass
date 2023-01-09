@@ -19,8 +19,8 @@ bicep -v #or --version  check path if necessary sysdm.cpl and user path .bicep r
 bicep build ./storageaccount.bicep #not required anymore
 
 #Need 5.6.0 or above
-Get-InstalledModule -Name Az -AllVersions
-Find-Module -Name Az #what is available
+Get-InstalledModule -Name Az -AllVersions
+Find-Module -Name Az #what is available
 
 #For Az need 2.20.0 or above
 az version
